@@ -35,8 +35,17 @@
                     </button>
 
                     <!-- Branding Image -->
-                    <a class="navbar-brand" href="{{ url('/') }}">
+                    <a class="navbar-brand" href="/home">
                         {{ config('app.name', 'Laravel') }}
+                    </a>
+                    <a class="navbar-brand" href="/users">
+                        {{ config('Users', 'Users') }}
+                    </a>
+                    <a class="navbar-brand" href="/content">
+                        {{ config('Content', 'Content') }}
+                    </a>
+                    <a class="navbar-brand" href="/edit">
+                        {{ config('Edit', 'Edit') }}
                     </a>
                 </div>
 

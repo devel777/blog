@@ -81,11 +81,6 @@
                 <div class="title m-b-md">
                     Training
                 </div>
-                <div class="links">
-                    <a href="/home">Первая страница</a>
-                    <a href="/home">Вторая страница</a>
-                    <a href="/home">Третья страница</a>
-                </div>
             </div>
         </div>
     </body>
