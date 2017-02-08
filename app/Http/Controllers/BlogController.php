@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Blog;
 use Illuminate\Http\Request;
 
-class ContentController extends Controller
+class BlogController extends Controller
 {
     public function __construct()
     {
@@ -15,6 +15,6 @@ class ContentController extends Controller
     {
         $blogs = Blog::all();
 
-        return view('/content', ['blogs' => $blogs]);
+        return view('/blog', ['blogs' => $blogs]);
     }
 }

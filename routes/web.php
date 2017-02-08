@@ -18,6 +18,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
-Route::get('/content', 'ContentController@index');
+Route::get('/blog', 'BlogController@index');
+Route::post('/blog', 'BlogController@index');
 Route::get('/users', 'UsersController@index');
-Route::get('/edit', 'EditController@index');
+//Route::get('/blog/edit', 'EditController@index');
+Route::post('/edit', 'EditController@addText');
